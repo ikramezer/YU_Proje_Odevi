@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:id="@+id/doguu"
+    android:layout_height="match_parent"
+    tools:context=".akdenizbolgesi">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="50dp"
+                android:background="#000"
+                android:layout_height="50dp"
+                android:src="@drawable/geridon2"
+                android:id="@+id/geridon2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Doğu Anadolu Gezilecek Yerler"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                android:text="Girlevik Şelalesi(Erzincan)"
+                android:textSize="18sp"/>
+
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/girlevik"
+                android:id="@+id/btngır"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Girlevik Şelalesi Hakkında Bilgi Almak İstiyorsanız Resime Tıklayın"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                />
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                android:text="Akdamar Adası(Van)"
+                android:textSize="18sp"/>
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/akdamaradasi"
+                android:id="@+id/btnakdamar"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Akdamar Adası Hakkında Bilgi Almak İstiyorsanız Resime Tıklayın"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                />
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                android:text="Harput Kalesi(Elazığ)"
+                android:textSize="18sp"/>
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/harput"
+                android:id="@+id/btnharput"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Harput Kalesi Hakkında Bilgi Almak İstiyorsanız Resime Tıklayın"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                />
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                android:text="Orduzu Pınarbaşı(Malatya)"
+                android:textSize="18sp"/>
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/orduzu"
+                android:id="@+id/btnorduzu"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Orduzu Pınarbaşı Hakkında Bilgi Almak İstiyorsanız Resime Tıklayın"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

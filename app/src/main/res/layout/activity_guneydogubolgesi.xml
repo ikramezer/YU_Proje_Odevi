@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:id="@+id/guney"
+    tools:context=".akdenizbolgesi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/geridon"
+                android:src="@drawable/geridon2"
+                android:layout_width="45dp"
+                android:background="#000000"
+                android:layout_height="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:background="#FF9800"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Güneydoğu Anadolu Bölgesi Gezilecek Yerler"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                android:text="On Gözlü Köprü(DiyarBakır)"
+                android:textSize="18sp"/>
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/ongozi"
+                android:id="@+id/btndıyar"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="On Gözlü Köprü Hakkında Bilgi  Edinmek İçin Resme Dokununuz...!"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                />
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                android:text="Balıklı Göl(Şanlıurfa)"
+                android:textSize="18sp"/>
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/balikli"
+                android:id="@+id/btnurfa"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Balıklı Göl Hakkında Bilgi  Edinmek İçin Resme Dokununuz...!"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                />
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                android:text="Dayrulzafaran Manastırı(Mardin)"
+                android:textSize="18sp"/>
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/deyrul"
+                android:id="@+id/btnmardin"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Deyrulzafaran Manastırı Hakında Bilgi  Edinmek İçin Resme Dokununuz...!"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                />
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                android:text="Nemrut Dagı(Adıyaman)"
+                android:textSize="18sp"/>
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/nemrut"
+                android:id="@+id/btnadıyaman"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Nemrut Dağı Hakkında Bilgi  Edinmek İçin Resme Dokununuz...!"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

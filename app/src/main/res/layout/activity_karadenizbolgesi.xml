@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent"
+    android:id="@+id/Akaradeniz"
+    tools:context=".akdenizbolgesi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/Gdo"
+        android:src="@drawable/geridon2"
+        android:layout_width="45dp"
+        android:background="#000000"
+        android:layout_height="35dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="20dp"
+        android:background="#FF9800"
+        android:padding="5dp"
+        android:text="Karadeniz gezilecek yerler"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:background="#FF9800"
+        android:text="Potuk Yaylası(Rize)"
+        android:textSize="18sp"/>
+    <ImageButton
+       android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/potuk"
+        android:id="@+id/btnpotuk"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Potuk Yaylası Hakında Bilgi  Edinmek İçin Resme Dokununuz...!"
+        android:textColor="#ffffff"
+        android:background="#FF9800"
+        />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+            android:text="Yoroz Kent  Ormanı (Ordu)"
+            android:textSize="18sp"/>
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/yoroz"
+            android:id="@+id/btnyoroz"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Yoroz Kent Ormanı  Hakında Bilgi  Edinmek İçin Resme Dokununuz...!"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+            />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+            android:text="Verneçik Yaylası Rize (Rize)"
+            android:textSize="18sp"/>
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/aa"
+            android:id="@+id/btnvercenık"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Verçenik Yayalsı Hakında Bilgi  Edinmek İçin Resme Dokununuz...!"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+            />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+            android:text="Torul Kalesi (Gümüşhane)"
+            android:textSize="18sp"/>
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/torul"
+            android:id="@+id/btntorul"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Torul KalesiHakında Bilgi  Edinmek İçin Resme Dokununuz...!"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+            />
+
+
+
+
+
+
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>

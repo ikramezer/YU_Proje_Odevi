@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/Aanasayfa"
+    android:layout_height="match_parent"
+    tools:context=".akdenizbolgesi"
+    >
+    <com.huawei.hms.ads.banner.BannerView
+        android:id="@+id/hw_banner_view"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="#000"
+        android:layout_marginTop="80dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/geridon"
+                android:src="@drawable/geridon2"
+                android:layout_width="45dp"
+                android:background="#000000"
+                android:layout_height="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:background="#FF9800"
+                android:padding="5dp"
+                android:text="Akdeniz  Bölgesinde gezilecek yerler"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                android:text="Kız Kalesi(Mersin)"
+                android:textSize="18sp"/>
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/kkm"
+                android:id="@+id/btnMersin"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Kız Kalesi Hakında Bilgi  Edinmek İçin Resme Dokununuz...!"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                />
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                android:text="Lavanta Vadisi(Isparta)"
+                android:textSize="18sp"/>
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/lavanta"
+                android:id="@+id/BtnIsparta"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:text="Lavanta Vadisi Hakında Bilgi  Edinmek İçin Resme Dokununuz...!"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                />
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                android:text="Salda Gölü(Burdur)"
+                android:textSize="18sp"/>
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/sadra"
+                android:id="@+id/BtnBurdur"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Salda Golü Hakında Bilgi  Edinmek İçin Resme Dokununuz...!"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                />
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                android:text="Patara Plajı (Antalya)"
+                android:textSize="18sp"/>
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/patara"
+                android:id="@+id/Btnantalya"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Patara Plajı Hakında Bilgi  Edinmek İçin Resme Dokununuz...!"
+                android:textColor="#ffffff"
+                android:background="#FF9800"
+                />
+
+
+
+        </LinearLayout>
+
+</ScrollView>
+</RelativeLayout>

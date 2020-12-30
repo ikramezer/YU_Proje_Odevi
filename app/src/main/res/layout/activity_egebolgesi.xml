@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Aege"
+    android:background="#000"
+    tools:context=".egebolgesi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/Gdon5"
+        android:src="@drawable/geridon2"
+        android:layout_width="45dp"
+        android:background="#000000"
+        android:layout_height="35dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:background="#FF9800"
+        android:padding="5dp"
+        android:text="EgeBölgesinde gezilecek yerler"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:background="#FF9800"
+        android:text="GeliBolu(Çanakkale)"
+        android:textSize="18sp"/>
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/gelibolu"
+        android:id="@+id/btngelibolu"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:text="GeliBolu Hakında Bilgi  Edinmek İçin Resme Dokununuz...!"
+        android:textColor="#ffffff"
+        android:background="#FF9800"
+        />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+            android:text="Urla(İzmir)"
+            android:textSize="18sp"/>
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/urla"
+            android:id="@+id/btnurla"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Urla Hakında Bilgi  Edinmek İçin Resme Dokununuz...!"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+            />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+            android:text="Çeşme ve Alaçatı(İzmir)"
+            android:textSize="18sp"/>
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/ca"
+            android:id="@+id/btncesme"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Çeşme ve Alaçatı Hakında Bilgi  Edinmek İçin Resme Dokununuz...!"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+            />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+            android:text="Efes(İzmir)"
+            android:textSize="18sp"/>
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/efes"
+            android:id="@+id/btnefes"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Efes Hakında Bilgi  Edinmek İçin Resme Dokununuz...!"
+            android:textColor="#ffffff"
+            android:background="#FF9800"
+            />
+    </LinearLayout>
+</ScrollView>
+
+
+</RelativeLayout>

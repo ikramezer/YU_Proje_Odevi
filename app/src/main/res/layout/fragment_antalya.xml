@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FF7700"
+    android:layout_height="match_parent"
+    tools:context=".AntalyaFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:background="#FF7700"
+        android:id="@+id/Gdon4"
+        android:src="@drawable/geridon1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patara Plajı (Antalya)"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#ffffff">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:padding="15dp"
+            android:src="@drawable/patara"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="italic|bold"
+            android:text="@string/patara"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patara Plajının Özelikleri"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#ffffff">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:padding="15dp"
+            android:src="@drawable/patara"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="italic|bold"
+            android:text="@string/patara1"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patara Plajı Giriş Ücreti ve Ziyaret Saatleri"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#ffffff">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:padding="15dp"
+            android:src="@drawable/pat"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="italic|bold"
+            android:text="@string/patara2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patara Plajı Nerede? ve Nasıl Gidilir?"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#ffffff">
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:padding="15dp"
+            android:src="@drawable/pa"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:gravity=""
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:text="Adres: Gelemiş Mahallesi Kaş / Antalya"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="italic|bold"
+            android:text="@string/patara3"
+            />
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

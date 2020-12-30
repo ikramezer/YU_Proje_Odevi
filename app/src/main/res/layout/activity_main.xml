@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:id="@+id/anasayfa1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="token1"
+                    android:textColor="#000"
+                    android:id="@+id/tv_log"
+                    />
+                <TextView
+                    android:id="@+id/akdenizb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:text="AKDENİZ BÖLGESİ"
+                    android:textColor="#2196F3"
+                    android:padding="2dp"
+                    android:textSize="16dp"
+                    android:textStyle="italic|bold" />
+
+                <ImageButton
+                    android:id="@+id/akdeniz"
+                    android:layout_width="380dp"
+                    android:layout_height="125dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/akdenizbolgesi" />
+
+                <TextView
+                    android:id="@+id/egeb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:text="EGE BÖLGESİ"
+                    android:textColor="#2196F3"
+                    android:textSize="16sp"
+                    android:padding="2dp"
+                    android:textStyle="italic|bold" />
+
+                <ImageButton
+                    android:id="@+id/ege"
+                    android:layout_width="380dp"
+                    android:layout_height="125dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/egebolgesi" />
+
+
+                <TextView
+                    android:id="@+id/karadenizb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:text="KARADENİZ BÖLGESİ"
+                    android:textColor="#2196F3"
+                    android:textSize="16sp"
+                    android:padding="2dp"
+                    android:textStyle="italic|bold" />
+
+                <ImageButton
+                    android:id="@+id/karadeniz"
+                    android:layout_width="380dp"
+                    android:layout_height="125dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/karadeniz" />
+
+                <TextView
+                    android:id="@+id/doguanadolub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:text="DOĞU ANADOLU BÖLGESİ"
+                    android:textColor="#2196F3"
+                    android:textSize="16sp"
+                    android:padding="2dp"
+                    android:textStyle="italic|bold" />
+
+                <ImageButton
+                    android:id="@+id/doguanadolu"
+                    android:layout_width="380dp"
+                    android:layout_height="125dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/doguanadolu" />
+
+                <TextView
+                    android:id="@+id/guneydoguanadolub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:text="GÜNEYDOĞU ANADOLU"
+                    android:textColor="#2196F3"
+                    android:textSize="16sp"
+                    android:padding="2dp"
+                    android:textStyle="italic|bold" />
+
+                <ImageButton
+                    android:id="@+id/guneydoguanadolu"
+                    android:layout_width="380dp"
+                    android:layout_height="125dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/guneydoguanadolu" />
+
+                <TextView
+                    android:id="@+id/icanadolub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:text="İÇ ANADOLU BÖLGESİ"
+                    android:textColor="#2196F3"
+                    android:textSize="16sp"
+                    android:padding="2dp"
+                    android:textStyle="italic|bold" />
+
+                <ImageButton
+                    android:id="@+id/icanadolu"
+                    android:layout_width="380dp"
+                    android:layout_height="125dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/icanadolu" />
+
+                <TextView
+                    android:id="@+id/marmarab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:text="MARMARA BÖLGESİ"
+                    android:textColor="#2196F3"
+                    android:textSize="16sp"
+                    android:padding="2dp"
+                    android:textStyle="italic|bold" />
+
+                <ImageButton
+                    android:id="@+id/marmara"
+                    android:layout_width="380dp"
+                    android:layout_height="125dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="0dp"
+                    android:src="@drawable/marmara" />
+                <ImageButton
+                    android:id="@+id/travel"
+                    android:src="@drawable/travel"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="380dp"
+                    android:layout_height="64dp"/>
+
+
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>

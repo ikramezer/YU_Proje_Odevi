@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FF7700"
+    android:layout_height="match_parent"
+    tools:context=".BurdurFragmnet">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:background="#FF7700"
+                android:id="@+id/Gdon3"
+                android:src="@drawable/geridon1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Salda Gölü(Burdur)"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="#ffffff">
+
+            </TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/salda"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:textStyle="italic|bold"
+                android:text="@string/SaldaGolu"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Salda Gölü Gezi Rehberi"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/saldanjpg"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:padding="5dp"
+                android:textStyle="italic|bold"
+                android:text="@string/SaldaGol1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:text="Salda gölünde gezilecek yerler neresidir?"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/saldag"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:padding="5dp"
+                android:textStyle="italic|bold"
+                android:text="@string/Saldagol2"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:text="Salda, Mars’a mı benziyor?"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:padding="5dp"
+                android:textStyle="italic|bold"
+                android:text="@string/Saldagol3"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:text="Salda gölü otel imkanları"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/saldao"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:padding="5dp"
+                android:textStyle="italic|bold"
+                android:text="@string/Saldago4"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:text="Salda kamp merkezleri"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/saldakamp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:padding="5dp"
+                android:textStyle="italic|bold"
+                android:text="@string/Saldago5"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:text="Kamp yapmak ücretli mi?"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:padding="5dp"
+                android:textStyle="italic|bold"
+                android:text="@string/Saldago6"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:text="Ve son olarak Salda Gölü nerede, nasıl gidilir?"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:gravity=""
+                android:padding="5dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:text="Adres: 15515 Salda Köyü – Yeşilova / Burdur"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:padding="5dp"
+                android:textStyle="italic|bold"
+                android:text="@string/Saldago7"
+                />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
